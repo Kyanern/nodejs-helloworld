@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nodejs-helloworld
+  description: |
+    nodejs-helloworld example.
+  links:
+    - title: GitHub
+      url: https://github.com/Kyanern/nodejs-helloworld
+  annotations:
+    github.com/project-slug: kyanern/nodejs-helloworld
+spec:
+  type: website
+  owner: user:kyanern
+  lifecycle: experimental
